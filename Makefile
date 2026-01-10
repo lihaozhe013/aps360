@@ -20,7 +20,7 @@ help:
 
 install:
 	@echo "Installing JupyterLab to global environment..."
-	$(PYTHON) -m pip install jupyterlab numpy matplotlib scipy scikit-learn 
+	$(PYTHON) -m pip install jupyterlab numpy matplotlib scipy scikit-learn pytorch torchvision
 
 run:
 	@echo "Starting JupyterLab on port $(PORT)..."
